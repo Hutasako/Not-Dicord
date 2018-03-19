@@ -329,19 +329,6 @@ a.article, a.article:hover {
   float: left;
   color: black;
 }
- .content .contact-profile .social-media {
-  float: right;
-}
- .content .contact-profile .social-media i {
-  margin-left: 14px;
-  cursor: pointer;
-}
- .content .contact-profile .social-media i:nth-last-child(1) {
-  margin-right: 20px;
-}
- .content .contact-profile .social-media i:hover {
-  color: #435f7a;
-}
  .content .messages {
   height: 90vh;
   min-height: calc(100% - 93px);
@@ -365,7 +352,7 @@ a.article, a.article:hover {
   display: inline-block;
   clear: both;
   float: left;
-  margin: 15px 15px 5px 15px;
+  margin: 15px 15px 5px 0;
   width: calc(100% - 25px);
   font-size: 0.9em;
 }
