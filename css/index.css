@@ -255,6 +255,10 @@ a.article, a.article:hover {
 .send-img{
     height: 2vh;
 }
+.profile-picture{
+    height: 20vh;
+    width: 25vh;
+}
 
 /* ---------------------------------------------------
     MEDIAQUERIES
@@ -317,24 +321,27 @@ a.article, a.article:hover {
   width: 100%;
   height: 60px;
   line-height: 60px;
-  background: #bcbbf9;
+  background: #9cb7a8;
 }
 .content .contact-profile img {
-  width: 40px;
+  width: 5vh;
+  height: 5vh;
   border-radius: 50%;
   float: left;
-  margin: 9px 12px 0 9px;
+  margin: 6px 12px 0 9px;
 }
  .content .contact-profile p {
   float: left;
+
   color: black;
 }
  .content .messages {
   height: 90vh;
   min-height: calc(100% - 93px);
   max-height: calc(100% - 93px);
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
+  background: #f2f4f2;
 }
 @media screen and (max-width: 735px) {
    .content .messages {
@@ -360,19 +367,25 @@ a.article, a.article:hover {
   margin-bottom: 20px;
 }
  .content .messages ul li.sent img {
-  margin: 6px 8px 0 0;
+  border: 1px solid black;
+  width: 3vh;
+  height: 3vh;
+  margin: 7px 0 0 8px;
+  float: right;
 }
  .content .messages ul li.sent p {
-  background: #435f7a;
+  background:#26094c;
   color: #f5f5f5;
+  float: right;
 }
  .content .messages ul li.replies img {
-  float: right;
-  margin: 6px 0 0 8px;
+  float: left;
+  margin: 7px 8px 0 0 ;
 }
  .content .messages ul li.replies p {
-  background: #f5f5f5;
-  float: right;
+  background: #178917;
+  color: white;
+  float: left;
 }
  .content .messages ul li img {
   width: 22px;
@@ -405,13 +418,13 @@ a.article, a.article:hover {
   float: left;
   border: none;
   width: calc(100% - 90px);
-  padding: 11px 32px 10px 8px;
+  padding: 11px 0 3vh 8px;
   font-size: 0.8em;
   color: #32465a;
 }
 @media screen and (max-width: 735px) {
    .content .message-input .wrap input {
-    padding: 15px 32px 16px 8px;
+    padding: 15px 0 16px 8px;
   }
 }
  .content .message-input .wrap input:focus {
@@ -437,10 +450,10 @@ a.article, a.article:hover {
   opacity: 1;
 }
  .content .message-input .wrap button {
-  float: right;
+  
   border: none;
-  width: 50px;
-  padding: 12px 0;
+  width: 9.2vh;
+  padding: 1.7vh;
   cursor: pointer;
   background: #32465a;
   color: #f5f5f5;
