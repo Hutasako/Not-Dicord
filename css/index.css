@@ -222,6 +222,9 @@ a.article, a.article:hover {
         background-color: #e0e57e;
 
 }
+.chat-item{
+    border-bottom: 1px solid #d1d1d1;
+}
 .chat-item .active{
     background-color: #e0e57e;
     border: 0;
